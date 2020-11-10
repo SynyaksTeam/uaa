@@ -1,4 +1,8 @@
+server:
+  port: 9999
 spring:
+  application:
+    name: uaa
   profiles:
     active: dev
   liquibase:
