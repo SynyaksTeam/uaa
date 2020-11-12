@@ -20,7 +20,6 @@ import java.io.IOException;
 @Component
 @RequiredArgsConstructor
 public class AuthorizationFilter extends OncePerRequestFilter {
-
     private final JwtService jwtUtil;
     private final UserDetailsService userDetailsService;
 
